@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulaire Films</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="ajout_films_servlet">
+            <table>
+                <thead>
+                <th>Champs</th>
+                <th>Valeurs</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Titre du film</label></td>
+                        <td><input type="text" name="titre"/></td>
+                    </tr>  
+                    <tr>
+                        <td><label>Genre</label></td>
+                        <td> <select name="genre">
+                                <option value="1">Animation</option>
+                                <option value="2">Action</option>
+                                <option value="3">Drame</option>
+                                <option value="4">Romance</option>
+                                <option value="4">Com&eacute;die</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Ann&e&eacute;e de production</label></td>
+                        <td><input type="number" name="annee" value="2016" max="2016" min="1900"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Pays</label></td>
+                        <td> <select name="pays">
+                                <option value="1">France</option>
+                                <option value="2">USA</option>
+                                <option value="3">Espagne</option>
+                                <option value="4">Nouvelle-Z&eacute;lande</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>R&eacute;alisateur</label></td>
+                        <td> <select multiple="" name="realisateur">
+                                <option value="1">Ethan COEN</option>
+                                <option value="2">Joel COEN</option>
+                                <option value="3">Quentin TARANTINO</option>
+                                <option value="4">Peter JACKSON</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Synopsis</label></td>
+                        <td><textarea name="synopsis"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Publi&eacute;?</label></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit"/></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+        </form>
+    </body>
+</html>

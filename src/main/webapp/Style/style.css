@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mars 2016, 15:46:59
+    Author     : admin
+*/
+
+body{
+    background-color: black;
+
+    font-family: fantasy;
+    font-size: large;
+}
+
+.titre{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    color: gold;
+    background-image: url(../Images/bobine-cinema.gif);
+    height: 150px;
+}
+
+.menu{
+    text-align: center;
+    font-weight: lighter;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+    background-color: aqua;
+    border-style: dotted;
+    border-color: white;
+    border-width: 5px 0px 5px 0px;
+}
+
+.pied{
+    text-align: right;
+    font-family: inherit;
+    font-size: small;
+    color: blue;
+    font-style: italic;
+}
+
+.contenu{
+    text-align: justify;
+    font-family: monospace;
+    font-size: medium;
+    color: black;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+    font-style: oblique;
+    color: blue;
+}
+.a{
+    background-color: palegoldenrod;
+    font-size: 20px; 
+    text-align: center; 
+    font-family: monospace;
+    border-style: outset;
+    border-color: gold;
+    border-width: 3px 3px 3px 3px;
+}
+
+.b{
+    background-color: paleturquoise;
+    font-size: 20px; 
+    text-align: center; 
+    font-family: monospace;
+    border-style: outset;
+    border-color: turquoise;
+    border-width: 3px 3px 3px 3px;
+}
+
+.c{
+    background-color: palegreen;
+    font-size: 20px; 
+    text-align: center; 
+    font-family: monospace;
+    border-style: outset;
+    border-color: limegreen;
+    border-width: 3px 3px 3px 3px;
+}
+
+.homepage{
+    text-align: center; 
+    font-family: fantasy; 
+    font-size: xx-large; 
+    color: red;
+    width: 10px 50px 10px 50px;
+    background-image: url(../Images/bonhomme-blanc.png);
+    }

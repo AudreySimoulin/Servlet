@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 mars 2016, 11:35:23
+    Author     : admin
+*/
+body{
+    background-color: black;
+
+    font-family: fantasy;
+    font-size: large;
+}
+
+.titre{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 100px;
+    color: red;
+    background-image: url(../Images/anonymous-couverture_facebook.jpg);
+    height: 150px;
+}
+
+.menu{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: x-large;
+    color: black;
+    background-color: red;
+    border-style: groove;
+    border-color: darkred;
+    border-width: 5px 0px 5px 0px;
+}
+
+.pied{
+    text-align: right;
+    font-family: inherit;
+    font-size: small;
+    color: white;
+    font-style: italic;
+}
+
+.contenu{
+    text-align: justify;
+    font-family: initial;
+    font-size: medium;
+    color: black;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+    font-style: inherit;
+    color: whitesmoke;
+}
+
+.a{
+    background-color: darkgoldenrod; 
+    font-size: 20px; 
+    text-align: center; 
+    font-family: fantasy;
+    border-style: groove;
+    border-color: gold;
+    border-width: 3px 3px 3px 3px;
+}
+
+.b{
+    background-color: firebrick;
+    font-size: 20px; 
+    text-align: center; 
+    font-family: fantasy;
+    border-style: groove;
+    border-color: brown;
+    border-width: 3px 3px 3px 3px;
+}
+
+.c{
+    background-color: darkgoldenrod; 
+    font-size: 20px; 
+    text-align: center; 
+    font-family: fantasy;
+    border-style: groove;
+    border-color: gold;
+    border-width: 3px 3px 3px 3px;
+}
+

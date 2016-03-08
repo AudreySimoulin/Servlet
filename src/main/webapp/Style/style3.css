@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 mars 2016, 14:13:42
+    Author     : admin
+*/
+
+.titre{
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+    background-image: url(../Image/bobine-cinema.gif);
+    height: 150px;
+    color: gold;
+}
+
+.menu{
+    text-align: center;
+    font-weight: lighter;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+    background-color: aqua;
+    border-style: dotted;
+    border-color: white;
+    border-width: 5px 0px 5px 0px;
+}
+
+.pied{
+    text-align: center;
+    font-family: inherit;
+    font-size: small;
+    color: white;
+    font-style: italic;    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.contenu{
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;   
+    color: wheat;
+}
+
+body{
+    background-color: black
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+    font-style: oblique;
+    color: blue;
+}
